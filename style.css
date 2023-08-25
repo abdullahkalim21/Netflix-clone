@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-title-preview {
+    left: 3%;
+    top: 20%;
+}
+.hero-movie-info {
+    right: 0%;
+    top: 80%;
+}
+.preview {
+    bottom: 10px;
+    left: 10px;
+}
+.more-like-this {
+    width: fit-content;
+}
+.col-4 {
+    padding: 1%;
+}
+.col-4 img {
+    width: 100%;
+    object-fit: fill;
+}

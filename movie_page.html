@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./Images/netflix N logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero-section position-relative">
+        <iframe width="100%" height="1080px" src="https://www.youtube.com/embed/2gTC4uWP3_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="movie-title ms-5">
+        <h1>Movie Name</h1>
+    </div>
+    <div class="movie-info d-flex align-items-center py-2 gap-5 ms-5">
+        <p class="year m-0">2021</p>
+        <button class="age-detrmination btn btn-secondary">13+</button>
+        <p class="movie-time-length m-0">2h 30m</p>
+    </div>
+    <div class="movie-buttons d-grid gap-1">
+        <button class="play btn btn-light ">
+            <i class="fa-sharp fa-solid fa-play"></i> Play
+        </button>
+        <button class="download btn btn-secondary">
+            <i class="fa-sharp fa-solid fa-download"></i> Download
+        </button>
+    </div>
+    <div class="movie-details ms-5">
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur quos
+            sapiente natus eveniet, itaque fuga, ducimus veritatis sit tempora similique impedit? Voluptates atque
+            maxime quasi aspernatur! Quam ratione totam architecto nobis unde, deserunt numquam quas beatae
+            similique amet veniam quis ducimus tempora obcaecati sunt eveniet rerum itaque dolorem fugit!</p>
+        <p class="stars">
+            <strong>Starring:</strong> Hero, Heroin, Supporting Actors
+        </p>
+        <p class="director">
+            <strong>Director: </strong>Senior Director, Junior Director
+        </p>
+    </div>
+    <div class="movie-feedback d-flex justify-content-around p-2 fs-3">
+        <div class="add d-flex flex-column align-items-center">
+            <i class="fa-sharp fa-solid fa-plus"></i>
+            <p>My List</p>
+        </div>
+        <div class="Rate d-flex flex-column align-items-center">
+            <i class="fa-regular fa-thumbs-up"></i>
+            <p>Rate</p>
+        </div>
+        <div class="share d-flex flex-column align-items-center">
+            <i class="fa-solid fa-share-nodes"></i>
+            <p>Share</p>
+        </div>
+    </div>
+    </section>
+    
+    <hr class="text-dark ">
+    
+    
+    <!-- Other Movies' Suggestions -->
+    <section class="other-movies-container my-0 ">
+        <div class="more-like-this d-flex flex-column justify-content-center ms-5">
+            <span class="selected-area py-1 bg-danger bg-danger"></span>
+            <p class="py-3 fw-bold">More Like This</p>
+        </div>
+        <div class="movie-section-1 d-flex flex-column ms-5">
+            <h3>Category 1</h3>
+            <div class="suggested-movies d-flex gap-3 overflow-hidden position-relative">
+                <div>
+                    <img src="./netflix_images/movie_43.jpg" alt="Movie-1" class="rounded" />
+                </div>
+                <div>
+                    <img src="./netflix_images/movie_44.jpg" alt="Movie-2" class="rounded" />
+                </div>
+                <div>
+                    <img src="./netflix_images/movie_45.webp" alt="Movie-3" class="rounded" />
+                </div>
+                <div>
+                    <img src="./netflix_images/movie_46.webp" alt="Movie-4" class="rounded" />
+                </div>
+                <div>
+                    <img src="./netflix_images/movie_37.webp" alt="Movie-4" class="rounded" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="py-3"></div>
+    <!-- Footer Section -->
+    <div class="">
+        <footer class="py-5 bg-dark">
+
+            <div class="row px-3">
+                <div class="col-2 text-light">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2 text-light">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Help Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Jobs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Cookies Preferences</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2 text-light">
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Media Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Legal Notices</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Corporate Information</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-5 offset-1 ">
+                    <form>
+                        <h5 class="text-light">Subscribe to our newsletter</h5>
+                        <p class="text-light">Monthly digest of whats new and exciting from us.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-danger" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="text-light container">
+            <div class="d-flex justify-content-center text-light">
+                <p>© 2021 Netflix, Inc. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- BootStrap JavaScript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- JavaScript Link -->
+    <script src="./script.js"></script>
+</body>
+</html>
